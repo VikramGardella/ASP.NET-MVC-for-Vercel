@@ -1,0 +1,34 @@
+@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="box" style="justify-content:flex-start; padding-left:30px">
+    <h1 class="display-4" style="color: #333333">@ViewData["Title"]</h1>
+</div>
+
+<div class="box">
+    <div class="box-comp">
+
+        <h5 style="color: #333333">Inquire@GardellaIndustries.com</h5>
+        <h5 style="color: #333333">(513) 555-5555</h5>
+        <h5 style="color: #333333">301 E 3rd St, Cincinnati, OH, USA</h5>
+
+    </div>
+
+
+    <div class="box-comp">
+        <a class="twitter-timeline" data-width="450" data-height="300" data-dnt="true" data-theme="dark" href="https://twitter.com/GardellaIndust1">Tweets by TwitterDev</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+        
+    </div>
+
+    <div class="box-comp">
+        <h3 style="color: #333333">Consultation Scheduling</h3>
+        <nylas-agenda id="6223e077-df22-4344-8e77-80036a687953" access_token="USER_TOKEN"> </nylas-agenda>
+
+    </div>
+
+</div>
